@@ -1,0 +1,23 @@
+{
+    "name": "chearaan/advice",
+    "description": "Chearaan Tool",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "S Chandrasegarran",
+            "email": "schandrasegarran@chearaan.com"
+        }
+    ],
+    "require": {
+        "Illuminate/support": "~5.0"
+    },
+   "autoload": {
+        "psr-4": {
+            "Chearaan\\Advice\\": "src/"
+        },
+        "files": [
+            "src/Chearaan/Advice/functions.php"
+        ]
+    },    
+    "minimum-stability": "dev"
+}
